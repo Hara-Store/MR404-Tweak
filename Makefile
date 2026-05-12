@@ -5,7 +5,6 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = MR404
 MR404_FILES = Tweak.xm
-MR404_CFLAGS = -fobjc-arc
-MR404_CFLAGS += -Wno-deprecated-declarations
+MR404_CFLAGS = -fobjc-arc -Wno-deprecated-declarations -Wno-error
 
 include $(THEOS_MAKE_PATH)/tweak.mk
