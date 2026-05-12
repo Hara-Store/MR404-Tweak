@@ -1,0 +1,9 @@
+Package: com.hara.mr404
+Name: MR404 Tweak
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Simple text on screen
+Maintainer: Hara
+Author: Hara
+Section: Tweaks
